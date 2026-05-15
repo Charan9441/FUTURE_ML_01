@@ -1,0 +1,35 @@
+SALES & DEMAND FORECASTING REPORT
+----------------------------------
+Prepared for: Future Interns Task 1
+Date: 2026-05-14
+
+1. OBJECTIVE
+The goal of this project was to analyze historical transactional data from the Online Retail dataset and build a predictive model to forecast future demand.
+
+2. DATA SUMMARY
+- Dataset: Online Retail (UCI)
+- Records: 541,909 raw transactions
+- Cleaned: 530,104 transactions (removed cancellations and errors)
+- Key Market: United Kingdom (Top Revenue Generator)
+
+3. FORECASTING METHODOLOGY
+- Approach: Weekly Time-Series Regression
+- Model: Random Forest Regressor
+- Features: Month, Week of Year, 1-week/2-week/1-month Lags, and 4-week Rolling Averages.
+
+4. KEY FINDINGS
+- Trend: Significant growth in sales starting from Q3, peaking in late November.
+- Seasonality: Strong weekly seasonality; weekend sales are lower than weekday sales (B2B pattern).
+- Volatility: High volatility in daily sales suggests that inventory planning should be done on a weekly basis rather than daily.
+
+5. BUSINESS RECOMMENDATIONS
+- Inventory: Increase stock of high-performing SKUs by at least 40% in October to prepare for the Q4 surge.
+- Staffing: Schedule additional shifts during the middle of the week (Tuesday-Thursday) when order volume is highest.
+- Marketing: Focus customer retention campaigns in the UK market while exploring expansion opportunities in France and Germany (top secondary markets).
+
+6. FILES DELIVERED
+- weekly_sales_model.pkl: The trained forecasting model.
+- monthly_sales_trend.png: Historical revenue growth.
+- future_sales_forecast.png: 8-week projected sales demand.
+- cleaned_data.csv: Processed dataset for future use.
+----------------------------------
