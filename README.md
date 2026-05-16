@@ -2,6 +2,8 @@
 
 A professional, modular, and deployment-ready Machine Learning pipeline designed for business demand forecasting. This project transforms historical transactional data into actionable insights and future projections.
 
+**Live demo:** https://sdfsystem.streamlit.app/
+
 ## 🚀 Key Features
 - **Modular Architecture**: Reusable logic separated into dedicated Python modules.
 - **Interactive Narrative**: Professional Jupyter Notebook for data storytelling and EDA.
