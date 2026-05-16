@@ -6,6 +6,7 @@ A professional, modular, and deployment-ready Machine Learning pipeline designed
 - **Modular Architecture**: Reusable logic separated into dedicated Python modules.
 - **Interactive Narrative**: Professional Jupyter Notebook for data storytelling and EDA.
 - **Deployment-Ready**: Includes a Streamlit dashboard starter for cloud deployment.
+- **Live Deployment**: A published dashboard is available online for stakeholders to review forecasts.
 - **Robust Feature Engineering**: Leverages time-series lags and rolling averages to capture trends.
 - **Cross-Platform**: Uses `pathlib` for compatibility across Windows, Linux, and Google Colab.
 
@@ -60,7 +61,15 @@ pip install -r requirements.txt
 ### 2. Run the Notebook
 Open `notebooks/sales_forecasting.ipynb` in VS Code or Jupyter Lab to view the full analysis and training process.
 
-### 4. Running on Google Colab
+### 3. Run the Streamlit app locally
+```bash
+streamlit run app/app.py
+```
+
+### 4. Live Deployment
+A deployed version of the dashboard is available at: https://sdfsystem.streamlit.app/
+
+### 5. Running on Google Colab
 1. Upload the `notebooks/sales_forecasting.ipynb` to Google Colab.
 2. Upload the `Online Retail.xlsx` file to the `/content/` directory.
 3. Upload the `src/` folder to the `/content/` directory to enable modular imports.
